@@ -1,1 +1,14 @@
+# Python and notebook temporary files
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
 
+# Downloaded road images and datasets
+/data/
+/datasets/
+/roadsight_pilot_images/
+
+# YOLO model weights and training runs
+*.pt
+/runs/
